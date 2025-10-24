@@ -102,7 +102,7 @@ int main()
 
 		case 6:
 			system("cls");
-			cout << "Insira o valor Farenheith:";
+			cout << "Insira o valor Farenheith:\n";
 			cin >> ValorA;
 			system("cls");
 			cout << "O valor Farenheith em Kelvin eh " << fixed << setprecision(2) << FK(ValorA) << "K\n";
